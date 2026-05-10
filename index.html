@@ -1,110 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
-    <script src='visitor.js'></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>whoami</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/135/135793.png  ">
-</head>
-<body>
-    <section class="et-hero-tabs">
-      <div class="clearfix">
-        <div class="img-container">
-          <img src="https://github.com/herculeszxc/whoami/blob/main/pictures/82341210_2613536842208620_5477045684311949312_n.jpg?raw=true" alt="avatar" style="width:75%">
-       </div>
-      <div class="whoami">
-          <h1>Herc Bandiola</h1>
-          <h3>Hello I am currently second year college studying BS Computer Science in Philippines. Future software engineer or cybersecurity professional (I wish) still thinking of my path :D, for now I am focusing more on my studies and If I vacant time I do penetration testing and bughunting on Hackerone platform.</h3>
-          <h4><em>“Simplicity is the ultimate sophistication.” - Leonardo da Vinci</em></h4>
-        <br>
-        <p>
-          Fun fact! I've made this portfolio
-          <span id="time-container">0</span> seconds ago! :D
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Herc Bandiola - Philippine-based Penetration Tester focused on network, web application, and API security.">
+    <title>Herc Bandiola | Penetration Tester</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <aside class="profile">
+        <img src="Formal%20Me.png" alt="Formal portrait of Herc Bandiola">
+        <p class="kicker">Philippine-Based Penetration Tester</p>
+        <h1>Herc Bandiola</h1>
+        <p class="summary">
+          Penetration Tester at IntegSec with 4 years of technical cybersecurity experience and 2 years of professional experience.
         </p>
-      
-      </div>
-
-        <div class="et-hero-tabs-container">
-          <a class="et-hero-tab" href="#tab-project">Projects</a>
-          <a class="et-hero-tab" href="#tab-contact">Contact me</a>
-          <a class="et-hero-tab" href="#tab-skill">skills</a>
-          <span class="et-hero-tab-slider"></span>
+        <div class="profile-actions">
+          <a class="button" href="https://www.linkedin.com/in/hercbandiola/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button ghost" href="#research">Research</a>
         </div>
+      </aside>
 
+      <section class="content" aria-label="Portfolio content">
+        <header class="intro">
+          <p class="section-label">Security Profile</p>
+          <h2>Focused on practical exploitation, chained risk, and clear remediation.</h2>
+          <p>
+            I perform authorized security assessments across network, web application, and API environments. My work includes deep recon, black-box, gray-box, and white-box testing, vulnerability validation, pivoting, and report writing for engineering and security teams.
+          </p>
+        </header>
+
+        <section class="block" id="skills">
+          <h3>Skills</h3>
+          <div class="pill-grid">
+            <span>Network Penetration Testing</span>
+            <span>Web Application Testing</span>
+            <span>API Security Testing</span>
+            <span>Deep Recon</span>
+            <span>Black Box Testing</span>
+            <span>Gray Box Testing</span>
+            <span>White Box Testing</span>
+            <span>Pivoting</span>
+            <span>Cross / Chained Vulnerability Analysis</span>
+            <span>Report Writing</span>
+          </div>
+        </section>
+
+        <section class="block" id="experience">
+          <h3>Experience</h3>
+          <article class="row">
+            <div>
+              <h4>Penetration Tester</h4>
+              <p class="muted">IntegSec</p>
+            </div>
+            <p>
+              Conducts authorized penetration testing engagements covering recon, exploitation, chained vulnerability validation, pivoting where in scope, evidence collection, and remediation-focused reporting.
+            </p>
+          </article>
+        </section>
+
+        <section class="block" id="research">
+          <h3>Research & Recognition</h3>
+          <div class="stack">
+            <article class="row">
+              <div>
+                <h4>CVE-2026-7106</h4>
+                <p class="muted">WordPress privilege escalation</p>
+              </div>
+              <p>
+                Discovered an authenticated subscriber privilege escalation vulnerability in Highland Software Custom Role Manager.
+                <a href="https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/highland-software-custom-role-manager/highland-software-custom-role-manager-100-authenticated-subscriber-privilege-escalation" target="_blank" rel="noreferrer">View advisory</a>
+              </p>
+            </article>
+
+            <article class="row">
+              <div>
+                <h4>Acknowledgments</h4>
+                <p class="muted">Responsible disclosure</p>
+              </div>
+              <p>
+                Submitted vulnerabilities to The New York Times, Department of Defense, Teamtailor, and other confidential programs.
+                <a href="https://nytimes.responsibledisclosure.com/hc/en-us/articles/7811233996947-Acknowledgments" target="_blank" rel="noreferrer">NYT acknowledgment</a>
+                <a href="https://www.teamtailor.com/en/resources/vulnerability/" target="_blank" rel="noreferrer">Teamtailor acknowledgment</a>
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="block" id="certifications">
+          <h3>Certifications</h3>
+          <div class="cert-grid">
+            <a href="https://certs.ine.com/fabd9105-2c2e-4332-b74d-3ac68933c0f5" target="_blank" rel="noreferrer">
+              <strong>eWPTX</strong>
+              <span>INE Certification</span>
+            </a>
+            <a href="https://certs.ine.com/fabd9105-2c2e-4332-b74d-3ac68933c0f5" target="_blank" rel="noreferrer">
+              <strong>eJPT</strong>
+              <span>INE Certification</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="block contact" id="contact">
+          <div>
+            <h3>Contact</h3>
+            <p>Open to security collaboration, responsible disclosure work, and professional opportunities.</p>
+          </div>
+          <a class="button" href="https://www.linkedin.com/in/hercbandiola/" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+        </section>
       </section>
-      <main class="et-main">
-        <section class="et-slide" id="tab-project">
-          <h1>Projects</h1>
-          <h3>SIMPLE STUDENT MANAGEMENT SYSTEM - PHP, CSS & HTML</h3><a href="https://bandiolacms.000webhostapp.com/index.php" target="_blank">View project</a>
-          <h3>Backend simple ATM machine - C#</h3><a href="atm/index.html" target="_blank">View project</a>
-          <h3>Dragonary breeding calculator - HTML, CSS & JAVASCRIPT</h3><a href="https://herculeszxc.github.io/Dragonary-breeding-web-calculator/" target="_blank">View project</a>
-          <h3>Smart promo registration via dial clone - C#</h3><a href="smart/index.html" target="_blank">View project</a>
-          <h3>This portfolio - HTMl, CSS & JAVASCRIPT </h3><a href="url" target="_blank">View project</a>
-        </section>
-
-        <section class="et-slide" id="tab-contact">
-          <h1>Contact me?</h1>
-            <div class="wrapper">
-              <a href="https://www.facebook.com/herc.bandiola.3/" target="_blank"  class="icon facebook">
-                <div class="tooltip">Facebook</div>
-                <span><i class="fab fa-facebook-f"></i></span>
-              </a>
-              <a href="https://twitter.com/HerchercinMoko" target="_blank"  class="icon twitter">
-                <div class="tooltip">Twitter</div>
-                <span><i class="fab fa-twitter"></i></span>
-              </a>
-              <a href="https://www.instagram.com/herczxc/" target="_blank"  class="icon instagram">
-                <div class="tooltip">Instagram</div>
-                <span><i class="fab fa-instagram"></i></span>
-              </a>
-              <a href="https://github.com/herculeszxc" target="_blank"  class="icon github">
-                <div class="tooltip">Github</div>
-                <span><i class="fab fa-github"></i></span>
-              </a>
-              <a href="https://www.linkedin.com/in/herc-bandiola-110b911b4/" target="_blank"  class="icon linkedin">
-                <div class="tooltip">Linkedin</div>
-                <span><i class="fab fa-linkedin"></i></span>
-              </a>
-            </div>  
-        </section>
-
-        <section class="et-slide" id="tab-skill">
-          <h1>Skills</h1>
-            <br>
-            <div class="skill-icon">
-              <i class="devicon-javascript-plain" ></i>
-              <i class="devicon-php-plain" style="padding-left:25px;"></i>
-              <i class="devicon-css3-plain" style="padding-left:25px;"></i>
-              <i class="devicon-java-plain-wordmark" style="padding-left:25px;"></i>
-              <i class="devicon-html5-plain" style="padding-left:25px;"></i>
-              <i class="devicon-csharp-plain" style="padding-left:25px;"></i>
-              <i class="devicon-cplusplus-plain" style="padding-left:25px;"></i>
-            </div><br>
-          <h2>Certifications</h2>
-            <a href="https://www.codecademy.com/profiles/herculeszxc">CODECADEMY.COM/PROFILES/HERCULESZXC</a>
-        </section>
-      </main>
-
-</body>
-<script>
-  const timeContainer = document.getElementById("time-container");
-  const BIRTH_DAY = "07-05-2022";
-  const BIRTH_DAY_DATE = new Date(BIRTH_DAY);
-  const intlNumberFormatter = new Intl.NumberFormat("en-US");
-
-  setInterval(() => {
-    const now = new Date();
-    const difference = Math.floor(
-      (now.getTime() - BIRTH_DAY_DATE.getTime()) / 1000
-    );
-
-    timeContainer.innerText = intlNumberFormatter.format(difference);
-  }, 1000);
-</script>
+    </main>
+  </body>
 </html>
